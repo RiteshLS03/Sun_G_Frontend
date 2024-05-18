@@ -1,0 +1,229 @@
+.catSliderSection {
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+    
+  }
+  .cat_slider_Main .slick-slide {
+    padding-right: 20px !important;
+  }
+  .cat_slider_Main .slick-list {
+    padding-left: 25px !important;
+    
+  }
+  .cat_slider_Main .item {
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 25px 0px;
+    /* background: #EF5DA8;
+box-shadow: 0px 20px 30px rgba(239, 93, 168, 0.251);
+border-radius: 190px; */
+    
+  }
+  .info-img{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 160px;
+    width: 160px;
+    /* padding: 15px; */
+    background-color: #ffff;
+    box-shadow: 0px 20px 30px rgba(239, 93, 168, 0.251);
+        transition: all 0.3s ease-in-out;
+    position: relative; 
+        /* border:4px solid  #e4a4cb; */
+ 
+    border-radius: 50%;   
+  }
+  /* .info-img:after{
+    content: '';
+    height: 100%;
+    top: 0;
+    transition: .5s;
+  } */
+
+  
+  /* .info-img:hover:after{
+   background: linear-gradient(to bottom, rgba(199,0,57,.01)0 , rgba(199,0,57,.25) 25%,  rgba(199,0,57,.50) 50%, rgba(199,0,57,.75)75%  rgba(199,0,57,.95) 100% );
+  } */
+  .img-text{
+    padding: 20px;
+    margin-bottom: 20px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    bottom: 0;
+    z-index: 1;
+    transform: translateX(5px);
+    /* transition: all .5s cubic-bezier(.13, .62 , .81, .91)0s; */
+    transition: 0.6s;
+    opacity: 0;
+  }
+  .img-text:hover{
+    opacity: 1;
+  }
+.img-text h5{
+  font-size: 25px;
+  color: #00ff84;
+  margin-bottom: 5px;
+
+}
+.img-text p{
+  font-size: 15px;
+  font-weight: bold;
+  color: #000;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-text >*{
+  transform: translateY(15px);
+  transition: transform 0.6s;
+}
+.img-text:hover > *{
+  transform: translateY(0px);
+
+}
+  /* .info-img:hover .img-text{
+    transform: translateY(0);
+  } */
+  .cat_slider_Main .item .info {
+    /* margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; */
+    height: 320px;
+    width: 220px;
+    transition: all 0.3s ease-in-out;
+    position: relative; 
+    /* border:4px solid  #e4a4cb; */
+    background: #EF5DA8;
+    box-shadow: 0px 20px 30px rgba(239, 93, 168, 0.251);
+
+border-radius: 160px;
+  }
+  
+  .cat_slider_Main .item a {
+    text-decoration: none;
+  }
+  .cat_slider_Main .item .info h5 {
+    font-weight: 600 !important;
+    color: #000 !important;
+  }
+  .cat_slider_Main .item .info p {
+    font-size: 14px;
+    opacity: 0.8;
+    color: #000 !important;
+    margin-bottom: 0px;
+  }
+  
+  .cat_slider_Main .slick-arrow {
+    zoom: 80%;
+  }
+  .cat_slider_Main .slick-arrow.slick-next {
+    top: -50px !important;
+    right: 15px !important;
+  }
+  
+  .cat_slider_Main .slick-arrow.slick-prev {
+    top: -50px !important;
+    right: 100px !important;
+    left: inherit !important;
+  }
+  
+  .cat_slider_Main .item:hover .info,
+  .cat_slider_Main .slick-current .info {
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    transform: scale(1.1);
+  }
+  /* Group 17821 */
+
+/* position: absolute;
+width: 140px;
+height: 220px;
+left: 148px;
+top: 1094px; */
+
+
+
+/* Rectangle 4139 */
+
+/* position: absolute;
+width: 140px;
+height: 220px;
+left: 148px;
+top: 1094px; */
+
+/* Fuschia/100 */
+/* background: #EF5DA8;
+box-shadow: 0px 20px 30px rgba(239, 93, 168, 0.251);
+border-radius: 190px; */
+
+
+/* Burger */
+
+/* position: absolute;
+width: 94.54px;
+height: 29.71px;
+left: 169.61px;
+top: 1246px; */
+
+/* font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px; */
+/* identical to box height */
+/* text-align: center; */
+
+/* color: #FFFFFF; */
+
+
+
+/* Mask Group */
+
+/* position: absolute;
+width: 118.85px;
+height: 118.85px;
+left: 158.8px;
+top: 1104.8px; */
+
+
+
+/* Ellipse 102 */
+
+/* position: absolute;
+width: 118.85px;
+height: 118.85px;
+left: 158.8px;
+top: 1104.8px;
+
+background: #C4C4C4; */
+
+
+/* Mask Group 3 */
+
+/* position: absolute;
+left: 9.9%;
+right: 57.83%;
+top: 19.19%;
+bottom: 74.37%; */
+
+
+
+/* Image 134 */
+
+/* position: absolute;
+left: 9.9%;
+right: 57.83%;
+top: 19.19%;
+bottom: 74.37%;
+
+background: url(Image 134.png); */
